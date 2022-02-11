@@ -11,6 +11,10 @@ cap.set(3, frameWidth)
 cap.set(4, frameHeight)
 cap.set(10, 150)
 
+# set your own Images folder
+# insert facial images to the folder so the algorithm can detect the face
+# otherwise the program will not work!!!
+# also make sure the images only have one face each (only one face in one image)
 path = "Images"
 
 def getKnownNames(Names):
